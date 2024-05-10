@@ -1,9 +1,9 @@
 <template>
-    <div class=" w-full bg-stone-800 flex justify-center h-[60px]">
-        <div class="">
-            <p>AjuInteliGente © 2024 Prefeitura Municipal de Aracaju.</p>
-            {{ dataOpenSideBar }}
-        </div>
+    <div class=" w-full bg-gray-800 flex justify-center h-[60px]">
+        <footer class="">
+            <a href="" target="_blank">AjuInteliGente</a>
+            <span class="ml-1">© 2024 Prefeitura Municipal de Aracaju.</span>
+        </footer>
     </div>
 </template>
 
@@ -15,3 +15,4 @@ export default {
     }
 }
 </script>
+

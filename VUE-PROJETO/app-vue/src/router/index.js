@@ -1,4 +1,5 @@
 import Dashboard from '@/pages/dashboard.vue';
+import assistenciaSocial from '@/pages/as002.vue'
 import master from '@/pages/layout/master.vue';
 
 
@@ -18,6 +19,11 @@ const router = createRouter({
           name: 'dashboard',
           path: '/dashboard',
           component: Dashboard
+        },
+        {
+          name: 'as002',
+          path: '/as002',
+          component: assistenciaSocial
         }
       ]
     }

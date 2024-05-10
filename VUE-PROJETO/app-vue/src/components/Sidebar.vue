@@ -4,7 +4,7 @@
          <div class="text-xl font-bold text-center flex items-center justify-center text-white h-full">
             <a href="#" class="flex items-center">
             <img src="/img/aju.png" alt="" class="w-11 h-11 rounded object-cover">
-            <span class="text-lg font-bold text-white ml-1 ">Inteligente</span>
+            <span class="text-lg font-bold text-white ml-1 " v-show="dataOpenSideBar">Inteligente</span>
         </a>
          </div>
         </div>
@@ -12,7 +12,7 @@
             <router-link to="/" class="px-2 flex space-x-2 text-sm"><span class="pi pi-palette ml-2 mr-2 " v-toolpit-right="Dashboard"></span><span v-show="dataOpenSideBar">Arte e Cultura</span></router-link>
         </div>
         <div class="py-4 rounded-sm cursor-pointer text-gray-300 hover:bg-gray-950 hover:text-gray-100">
-            <router-link to="/" class="px-2 flex space-x-2 text-sm"><span class="pi pi-heart-fill ml-2 mr-2 " v-toolpit-right="Dashboard"></span><span v-show="dataOpenSideBar">Assistência Social</span></router-link>
+            <router-link to="/as002" class="px-2 flex space-x-2 text-sm"><span class="pi pi-heart-fill ml-2 mr-2 " v-toolpit-right="as002"></span><span v-show="dataOpenSideBar">Assistência Social</span></router-link>
         </div>
         <div class="py-4 rounded-sm cursor-pointer text-gray-300 hover:bg-gray-950 hover:text-gray-100">
             <router-link to="/" class="px-2 flex space-x-2 text-sm"><span class="pi pi-hammer ml-2 mr-2 " v-toolpit-right="Dashboard"></span><span v-show="dataOpenSideBar">Defesa do Consumidor</span></router-link>
